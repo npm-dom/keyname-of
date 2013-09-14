@@ -1,0 +1,26 @@
+{
+  "name": "keyname-of",
+  "version": "0.0.0",
+  "description": "library to find out event keyname of given key code",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "keynames": "*"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "keywords": [
+    "dom",
+    "keyboard",
+    "event"
+  ],
+  "repository": {
+    "url": "git@github.com:azer\/keyname-of.git",
+    "type": "git"
+  },
+  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
