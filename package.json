@@ -1,6 +1,6 @@
 {
   "name": "keyname-of",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "library to find out event keyname of given key code",
   "main": "index.js",
   "scripts": {
