@@ -1,7 +1,10 @@
+var test = require('tape')
 var keynameOf = require("./");
 
-it('returns the keyname of given key code', function(){
-  expect(keynameOf(27)).to.equal('esc');
-  expect(keynameOf(91)).to.equal('meta');
-  expect(keynameOf(65)).to.equal('a');
+test('returns the keyname of given key code', function(t){
+  t.equal(keynameOf(27), 'esc');
+  t.equal(keynameOf(91), 'meta');
+  t.equal(keynameOf(65), 'a');
+
+  t.end();
 });

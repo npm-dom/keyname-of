@@ -4,13 +4,13 @@
   "description": "library to find out event keyname of given key code",
   "main": "index.js",
   "scripts": {
-    "test": "fox"
+    "test": "tape test.js"
   },
   "dependencies": {
     "keynames": "azer/keynames"
   },
   "devDependencies": {
-    "fox": "*"
+    "tape": "4.5.1"
   },
   "keywords": [
     "dom",
@@ -18,9 +18,9 @@
     "event"
   ],
   "repository": {
-    "url": "git@github.com:azer\/keyname-of.git",
+    "url": "git@github.com:npm-dom/keyname-of.git",
     "type": "git"
   },
-  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
   "license": "BSD"
 }
